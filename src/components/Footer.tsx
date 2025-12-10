@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="text-center md:text-right text-sm text-muted-foreground">
             <p>© 2025 Comunicação Shogun — Armas Invisíveis.</p>
             <p>Todos os direitos reservados.</p>
-            <p className="text-xs mt-1">Site desenvolvido por NexNov</p>
+            <p className="text-xs mt-1">Site desenvolvido por <a href="https://nexnov.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-shogun-gold transition-colors">NexNov</a></p>
           </div>
         </div>
       </div>
