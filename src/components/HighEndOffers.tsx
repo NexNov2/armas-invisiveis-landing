@@ -29,7 +29,7 @@ const HighEndOffers = () => {
               id="highend-title"
               className="text-2xl md:text-3xl lg:text-4xl font-black mb-4"
             >
-              Outras formações para líderes <span className="gold-text">avançados</span>
+              Formações avançadas para líderes <span className="gold-text">experientes</span>
             </h2>
             <p className="text-muted-foreground">
               Se o que você busca é transformação profunda, existem caminhos maiores. Escolha o nível que combina com sua ambição.
