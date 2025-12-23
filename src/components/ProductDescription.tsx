@@ -3,7 +3,7 @@ const ProductDescription = () => {
     "20 aulas curtas e práticas",
     "Cortes de mentorias e sessões reais",
     "Material em PDF e checklists Shogun",
-    "Sessão Executiva Shogun ao vivo (apenas para os 50 primeiros inscritos)",
+    "Sessão Executiva Shogun ao vivo (apenas para os 100 primeiros inscritos)",
     "Acesso via plataforma responsiva",
   ];
 
