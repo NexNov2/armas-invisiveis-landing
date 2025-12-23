@@ -46,6 +46,11 @@ const BulletsPremium = () => {
     <section id="bullets" className="py-16 md:py-24 section-light" aria-labelledby="bullets-title">
       <div className="container px-4">
         <div className="max-w-5xl mx-auto">
+          {/* Micro-frame */}
+          <p className="text-xl md:text-2xl font-bold text-center mb-8 text-secondary-foreground">
+            O que você <span className="text-shogun-gold-dark">DESTRAVA</span> quando ajusta sua comunicação no nível certo:
+          </p>
+
           <h2
             id="bullets-title"
             className="text-2xl md:text-3xl lg:text-4xl font-black text-center mb-12 text-secondary-foreground"
