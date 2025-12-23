@@ -17,9 +17,9 @@ const Promise = () => {
           </p>
           
           <div className="space-y-2 text-lg text-secondary-foreground/80">
-            <p>Sem teoria desnecessária.</p>
-            <p>Sem motivação vazia.</p>
-            <p>Sem conteúdo para inflar ego.</p>
+            <p><span className="text-shogun-gold-dark">Sem teoria desnecessária.</span></p>
+            <p><span className="text-shogun-gold-dark">Sem motivação vazia.</span></p>
+            <p><span className="text-shogun-gold-dark">Sem conteúdo para inflar ego.</span></p>
           </div>
         </div>
       </div>
