@@ -1,8 +1,8 @@
 import CountdownTimer from "./CountdownTimer";
 
 const UrgencyBlock = () => {
-  // Target date: 15/01/2025 às 23:59
-  const targetDate = new Date("2025-01-15T23:59:00");
+  // Target date: 15/01/2026 às 23:59
+  const targetDate = new Date("2026-01-15T23:59:00");
 
   return (
     <section className="py-16 md:py-24 section-dark gold-border-top" aria-labelledby="urgency-title">
@@ -27,7 +27,7 @@ const UrgencyBlock = () => {
           {/* Escassez de Bônus */}
           <div className="bg-gradient-to-b from-shogun-gold/20 to-transparent rounded-2xl p-8 mb-10">
             <h3 id="urgency-title" className="text-xl md:text-2xl font-bold text-center mb-4">
-              Opção A — Escassez de bônus: <span className="gold-text">Todos temporários até 15/01/2025</span>
+              <span className="gold-text">Todos temporários até 15/01/2025</span>
             </h3>
             <p className="text-center text-lg mb-6">
               ⏳ BÔNUS DISPONÍVEIS ATÉ: <span className="gold-text font-bold">15/01/2025 às 23:59</span>
@@ -44,7 +44,7 @@ const UrgencyBlock = () => {
               R$ 49,90
             </p>
             <p className="text-muted-foreground mb-6">
-              Opção B — Escassez de preço<br />
+              <br />
               <span className="text-foreground">Esse valor é de validação. Depois volta para R$ 97,00.</span>
             </p>
             <a
