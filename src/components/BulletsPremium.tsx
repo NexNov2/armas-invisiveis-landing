@@ -48,10 +48,15 @@ const BulletsPremium = () => {
         <div className="max-w-5xl mx-auto">
           <h2
             id="bullets-title"
-            className="text-2xl md:text-3xl lg:text-4xl font-black text-center mb-12 text-secondary-foreground"
+            className="text-2xl md:text-3xl lg:text-4xl font-black text-center mb-4 text-secondary-foreground"
           >
             O que você vai desbloquear em <span className="text-shogun-gold-dark">20 aulas curtas e práticas</span>
           </h2>
+          
+          {/* Micro-frame de ancoragem */}
+          <p className="text-lg md:text-xl text-center text-secondary-foreground/80 mb-12 font-medium">
+            O que você <span className="font-bold text-shogun-gold-dark">DESTRAVA</span> quando ajusta sua comunicação no nível certo:
+          </p>
 
           <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-12">
             {bullets.map((bullet, index) => (

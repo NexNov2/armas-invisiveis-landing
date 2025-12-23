@@ -3,16 +3,21 @@ const Promise = () => {
     <section id="beneficios" className="py-16 md:py-24 gold-border-top bg-muted" aria-labelledby="promise-title">
       <div className="container px-4">
         <div className="max-w-4xl mx-auto text-center">
+          <p className="text-2xl md:text-3xl lg:text-4xl font-black mb-6 animate-fade-in-up text-secondary-foreground">
+            Isso não é para assistir.<br />
+            <span className="gold-text">É para ativar.</span>
+          </p>
           <p
             id="promise-title"
-            className="text-xl md:text-2xl lg:text-3xl font-bold leading-relaxed mb-6 animate-fade-in-up"
+            className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-8 text-secondary-foreground/90 animate-fade-in-up"
           >
-            Em menos de <span className="gold-text">2 horas de conteúdo direto ao ponto</span>, você domina as armas invisíveis que transformam qualquer líder comum em um comunicador{" "}
-            <span className="gold-text">respeitado, influente e impossível de ser ignorado</span>.
+            Em menos de 2 horas, você passa por <span className="font-bold">20 ativações práticas</span> que ajustam sua comunicação, presença e influência, com aplicação imediata no mesmo dia.
           </p>
-          <p className="text-lg text-muted-foreground">
-            20 micro-aulas. Aplicáveis no mesmo dia. Sem teorias desnecessárias.
-          </p>
+          <div className="space-y-2 text-lg text-secondary-foreground/70">
+            <p>Sem teoria desnecessária.</p>
+            <p>Sem motivação vazia.</p>
+            <p>Sem conteúdo para inflar ego.</p>
+          </div>
         </div>
       </div>
     </section>

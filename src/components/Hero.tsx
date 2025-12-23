@@ -53,35 +53,19 @@ const Hero = () => {
             Acesso imediato. Formato micro-aulas. Garantia SHOGUN de 7 dias.
           </p>
 
-          {/* Conversion Block */}
-          <div className="bg-card/80 backdrop-blur-sm border border-shogun-gold/40 rounded-2xl p-6 md:p-8 max-w-xl mx-auto animate-scale-in delay-300">
-            <p className="text-xl md:text-2xl font-bold mb-2">
-              Acesso à oferta de lançamento por apenas
-            </p>
-            <p className="text-4xl md:text-5xl font-black gold-text mb-6">
-              R$ 49,90
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://chk.eduzz.com/60EE3BYD03"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-cta text-lg"
-                onClick={() => {
-                  if (typeof window !== 'undefined' && window.fbq) window.fbq('track', 'InitiateCheckout');
-                }}
-              >
-                QUERO A TRANSFORMAÇÃO
-              </a>
-              <a
-                href="https://wa.me/message/LEZJK4MOGH2NM1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-outline-gold"
-              >
-                TIRAR DÚVIDA NO WHATSAPP
-              </a>
-            </div>
+          {/* CTA Button */}
+          <div className="animate-scale-in delay-300">
+            <a
+              href="https://chk.eduzz.com/60EE3BYD03"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-cta text-lg px-10 py-5 inline-block"
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.fbq) window.fbq('track', 'InitiateCheckout');
+              }}
+            >
+              ATIVAR MINHA AUTORIDADE AGORA
+            </a>
           </div>
         </div>
       </div>
