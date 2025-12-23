@@ -13,6 +13,12 @@ const FinalCTA = () => {
             Líderes decidem. Líderes agem. Líderes evoluem rápido.
           </p>
 
+          {/* Micro-compromisso */}
+          <p className="text-lg md:text-xl text-foreground/90 mb-8 italic">
+            "Se você aplicar UMA dessas armas nas próximas 48 horas,<br />
+            já paga esse investimento."
+          </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://chk.eduzz.com/60EE3BYD03"

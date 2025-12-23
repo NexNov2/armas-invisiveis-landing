@@ -2,9 +2,10 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Promise from "@/components/Promise";
 import BulletsPremium from "@/components/BulletsPremium";
-import ProductDescription from "@/components/ProductDescription";
+import UrgencyBlock from "@/components/UrgencyBlock";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import WrittenTestimonials from "@/components/WrittenTestimonials";
+import ProductDescription from "@/components/ProductDescription";
 import Authority from "@/components/Authority";
 import HighEndOffers from "@/components/HighEndOffers";
 import CorporatePrograms from "@/components/CorporatePrograms";
@@ -20,9 +21,10 @@ const Index = () => {
       <Hero />
       <Promise />
       <BulletsPremium />
-      <ProductDescription />
+      <UrgencyBlock />
       <VideoTestimonials />
       <WrittenTestimonials />
+      <ProductDescription />
       <Authority />
       <HighEndOffers />
       <CorporatePrograms />

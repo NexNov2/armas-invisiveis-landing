@@ -3,7 +3,7 @@ const ProductDescription = () => {
     "20 aulas curtas e práticas",
     "Cortes de mentorias e sessões reais",
     "Material em PDF e checklists Shogun",
-    "Sessão Executiva Shogun ao vivo (apenas para os 100 primeiros inscritos)",
+    "Sessão Executiva Shogun ao vivo (apenas para os 50 primeiros inscritos)",
     "Acesso via plataforma responsiva",
   ];
 
@@ -88,7 +88,7 @@ const ProductDescription = () => {
                 if (typeof window !== 'undefined' && window.fbq) window.fbq('track', 'InitiateCheckout');
               }}
             >
-              QUERO A TRANSFORMAÇÃO — R$ 49,90
+              ATIVAR MINHA AUTORIDADE AGORA
             </a>
           </div>
         </div>
