@@ -26,9 +26,6 @@ const UrgencyBlock = () => {
 
           {/* Escassez de Bônus */}
           <div className="bg-gradient-to-b from-shogun-gold/20 to-transparent rounded-2xl p-8 mb-10">
-            <h3 id="urgency-title" className="text-xl md:text-2xl font-bold text-center mb-4">
-              <span className="gold-text">Todos temporários até 15/01/2025</span>
-            </h3>
             <p className="text-center text-lg mb-6">
               ⏳ BÔNUS DISPONÍVEIS ATÉ: <span className="gold-text font-bold">15/01/2025 às 23:59</span>
             </p>
