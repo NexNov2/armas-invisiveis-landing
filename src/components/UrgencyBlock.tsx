@@ -27,7 +27,7 @@ const UrgencyBlock = () => {
           {/* Escassez de Bônus */}
           <div className="bg-gradient-to-b from-shogun-gold/20 to-transparent rounded-2xl p-8 mb-10">
             <p className="text-center text-lg mb-6">
-              ⏳ BÔNUS DISPONÍVEIS ATÉ: <span className="gold-text font-bold">15/01/2025 às 23:59</span>
+              ⏳ BÔNUS DISPONÍVEIS ATÉ: <span className="gold-text font-bold">15/01/2026 às 23:59</span>
             </p>
             <CountdownTimer targetDate={targetDate} />
           </div>
